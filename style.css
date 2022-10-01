@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bg-containar{
+   min-height: 100vh;
+   background: #e1eee5;
+   background-size: cover;
+}
+.header{
+    position: sticky;
+    top: 0px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 50px;
+   height: 10vh;
+   background-color: aliceblue;
+   
+}
+.name{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.about-description{
+    font-weight: normal;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+li{
+    display: inline-block;
+    padding: 15px;
+}
+.aboutme-section{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(92, 109, 136);
+    display: flex;
+}
+.main-head{
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.projects-section{
+    height: 550px;
+    width: 100%;
+    background-color: rgb(199, 214, 236);
+    display: flex;
+    padding-top: 20px;
+    padding:30px;
+}
+.stack-section{
+    height: 520px;
+    width: 100%;
+    background-color: rgb(227, 240, 240);
+    display: flex;
+    /* padding-left: 40px; */
+    padding:30px;
+}
+.stack-head{
+    margin-bottom: 30px;
+}
+.icons-main{
+    display: flex;
+    flex-direction: column;
+}
+.stack-image{
+    height:250px;
+    padding:30px;
+}
+.icons{
+    display: flex;
+}
+.stack-image-css{
+    height:200px;
+    padding:30px;
+    margin-top: 20px;
+}
+.tech-text{
+    padding:30px;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-style: solid;
+    border-radius: 30px;
+    border-width:1px;
+}
+.stack-image-js{
+    height:200px;
+    padding:30px;
+    margin-top: 22px;
+}
+.project-details{
+    padding:10px;
+    /*border-style: solid; */
+    border-radius: 20px;
+    border-width: 1px;
+    margin: 10px;
+    width: 23vw;
+    height: 62vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(221, 231, 246);
+}
+.project-details:hover{
+   transform: scale(1.2);
+}
+.head-project{
+    padding:10px;
+}
+.para-project{
+    padding:2px;
+    margin-bottom: 20px;
+
+}
+.project-image{
+    width: 20vw;
+    height: 20vh;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.button{
+    background-color: rgb(139, 139, 215);
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    border-width: 0px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Myimage{
+  height: 500px;
+  width: 50%;
+  padding:20px;
+  border-radius: 50px;
+  margin-left: 40px;
+}
+.aboutme-text-conatainar{
+border-radius: 20px;
+border-radius: 70px;
+padding:20px;
+height: 500px;
+width: 50%;
+margin: 50px;
+}
+.education{
+    height: 520px;
+    width: 100%;
+    background-color: rgb(167, 195, 195);
+    display: flex;
+    padding:30px;
+}
+.education-image{
+  padding:50px;
+  height:70vh;
+  margin-left: 50px;
+}
+.edu-details{
+    padding:30px;
+    margin-top: 10px;
+    margin-left: 60px;
+    /* border-style: solid; */
+    border-radius: 30px;
+    border-width:1px;
+    width: 50vw;
+}
+.edu-heading{
+    padding-bottom: 30px;
+}
+.edu-heading1{
+    padding-bottom: 20px;
+}
+.edu-heading2{
+    text-decoration: underline;
+}
+.eduline{
+    padding-bottom:30px;
+}
+/*.contact{
+    height: 320px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding:30px;
+} */
+.footer-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: white;
+  height: 150px;
+}
+.location-image{
+    height:80px;
+}
+.visit{
+    padding:30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+nav ul li a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    transition: 0.7s;
+}
+nav ul li a:hover{
+    color: red;
+}
+nav h2{
+    color: blue;
+    font-size: 30px;
+}
+footer a:hover{
+color: red;
+}
